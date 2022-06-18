@@ -1,5 +1,12 @@
 # [[file:checker.org::*questions][questions:1]]
 # !/usr/bin/env python3
+########################
+#Name: Andres Perdomo
+#COURSE:  CAP4630
+#Assignment Name:  Project 1
+
+#Description:  Project 1 Assigment
+#######################
 from easyAI import TwoPlayerGame, Human_Player, AI_Player, Negamax
 from easyAI import solve_with_iterative_deepening
 import numpy as np
