@@ -186,22 +186,6 @@ class Checker(TwoPlayerGame):
         black lose if white piece is in black territory
         white lose if black piece is in black territory
         """
-        # # check if white lost
-        # if self.current_player-1 == 0:
-        #     for position in self.players[self.current_player-1].pos:
-        #         for goal in self.white_territory:
-        #             if(position == goal):
-        #                 print("white lost")
-        #                 return True
-        # # check if black lost
-        # elif self.current_player-1 == 1:
-        #     for position in self.players[self.current_player-1].pos:
-        #         for goal in self.black_territory:
-        #             if(position == goal):
-        #                 print("black lost")
-        #                 return True
-
-        #white
         if self.current_player == 1:
             for i,j in self.white_territory:
                 if self.board[i,j] == 'B':
